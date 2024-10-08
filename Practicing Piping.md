@@ -141,9 +141,9 @@ This is probably because using | mixes the stdout and stderr.
 Lets try using a command without |  
 For example-  
 
-hacker@dojo:~$ echo hi | rev  
+~$ echo hi | rev  
 ih  
-hacker@dojo:~$ echo hi > >(rev)  
+~$ echo hi > >(rev)  
 ih  
 
 The first and second programs are the same, hence lets try using the second method.  
