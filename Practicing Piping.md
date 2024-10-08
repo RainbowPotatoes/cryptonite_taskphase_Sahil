@@ -141,10 +141,10 @@ This is probably because using | mixes the stdout and stderr.
 Lets try using a command without |  
 For example-  
 
-hacker@dojo:~$ echo hi | rev
-ih
-hacker@dojo:~$ echo hi > >(rev)
-ih
+hacker@dojo:~$ echo hi | rev  
+ih  
+hacker@dojo:~$ echo hi > >(rev)  
+ih  
 
 The first and second programs are the same, hence lets try using the second method.  
 ```~$ /challenge/hack > >(/challenge/planet) 2> >(/challenge/the)```  
