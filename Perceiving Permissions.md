@@ -79,15 +79,16 @@ Will give us the flag
 This challenge is the same as the previous one but we need to use =.  
 = helps us set permissions altogether instead of updating the old ones.
 
-### 
+### The SUID Bit
+```pwn.college{Ydg_VVj8ngo-Ne64gpkGNJ16SBA.dNTM2QDL1gTN0czW}```
 
-
-
-
-
-
-
-
+The SUID Command gives a user temporary elevated access to do certain tasks. We can use this to get the flag in this challenge.  
+```
+~$ chmod a+s /challenge/getroot
+~$ /challenge/getroot
+~# cat /flag
+```
+Will give us the flag.  
 
 
 
