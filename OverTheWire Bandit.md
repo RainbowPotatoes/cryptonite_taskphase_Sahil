@@ -62,4 +62,14 @@ A simple grep command ```~$ grep "millionth *" data.txt``` will give us the answ
 ```~$ sort data.txt | uniq -u``` will give us the password.  
 'the sort command is used to put duplicate text adjacent to each other and the uniq command will filter out the lines which occur more than once.  
 
-### 
+### Level 9- Level 10
+```FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey```
+
+The 'strings' command is used to extract readable strings from a binary or unreadable file.
+```~$ strings -a data.txt | grep "=*"``` will give us the password.  
+
+### Level 10- Level 11
+```dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr```
+
+We can encode/decode base 64 data using the 'base64' command.  
+```~$ base64 -d data.txt``` will give us the flag.
