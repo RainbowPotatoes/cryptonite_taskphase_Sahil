@@ -80,7 +80,7 @@ We can encode/decode base 64 data using the 'base64' command.
 We can use the tr command to solve this ROT13 cypher. The tr command is a UNIX command-line utility for translating or deleting characters.  
 ```~$ tr 'A-Za-z' 'N-ZA-Mn-za-m' < data.txt``` will give us the flag.  
 'A-Za-z' specifies the range of all uppercase and lowercase letters.  
-'N-ZA-Mn-za-m' specifies how those letters should be rotated (shifted by 13 places).  
+'N-ZA-Mn-za-m' specifies how those letters should be rotated (shifted by 13 places)  
 
 ### Level 12- Level 13
 ```
